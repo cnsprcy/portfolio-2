@@ -743,7 +743,8 @@ textarea:focus:-ms-input-placeholder { color: transparent; }
 
 /* ----media queries---- */
 	/* mobile */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 414px) {
+	body { max-width: 414px; }
 	.bg-max { display: none; }
 	.bg-mobile { display: block; }
 	.logo { display: none; }
